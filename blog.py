@@ -99,8 +99,8 @@ heatmap_data = np.array([
     [0.2, 0.6, 0.4]
 ])
 
-xticklabels = ["왼쪽", "중앙", "오른쪽"]
-yticklabels = ["후방", "중앙", "전방"]
+xticklabels = ["left", "middle", "right"]
+yticklabels = ["backside", "middle", "front"]
 
 fig, ax = plt.subplots(figsize=(3, 2))
 sns.heatmap(
