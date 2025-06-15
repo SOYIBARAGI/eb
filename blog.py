@@ -110,9 +110,9 @@ sns.heatmap(
     xticklabels=xticklabels,
     yticklabels=yticklabels,
     linewidths=0.3,
-    cbar_kws={"label": "활동 강도"}
+    cbar_kws={"label": "intensity"}
 )
-ax.set_title("더브라위너 활동 밀도 히트맵", pad=8)
+ax.set_title("Kevin's heatmap", pad=8)
 plt.tight_layout()
 st.pyplot(fig)
 
