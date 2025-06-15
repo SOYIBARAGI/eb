@@ -88,7 +88,7 @@ st.line_chart(pass_data.set_index("시즌"))
 
 # 3. 활동 밀집도 (히트맵 스타일)
 # ✅ 한글 깨짐 방지
-matplotlib.rcParams['font.family'] = 'Malgun Gothic'
+matplotlib.rcParams['font.family'] = 'NanumGothic'
 matplotlib.rcParams['axes.unicode_minus'] = False
 
 st.markdown("### 🧠 더브라위너 활동 밀도 히트맵 (개선 버전)")
